@@ -3,21 +3,26 @@ A recreation of the classic Frogger-style crossing game built with **Python** an
 
 The objective is simple: help the turtle cross the road while avoiding incoming cars. Each successful crossing increases the game's difficulty by making the traffic move faster.
 
-## Features
+## ▶️ How to Run
 
-- Object-Oriented Programming (OOP)
+1. Make sure Python is installed on your computer.
 
-- Random car generation
+2. Download or clone this repository.
 
-- Collision detection
+3. Ensure the following files are in the same folder:
 
-- Increasing difficulty after each level
+    main.py
+    player.py
+    car_manager.py
+    scoreboard.py
 
-- Level counter
+4. Open a terminal (or your preferred Python IDE).
 
-- Game Over screen
+5. Navigate to the project folder.
 
-- Clean separation of responsibilities across classes
+6. Run the game:
+
+    python main.py
 
 ## Controls
 
@@ -33,11 +38,11 @@ The objective is simple: help the turtle cross the road while avoiding incoming 
 
 - `scoreboard.py` — Level display and game over message
 
-## Concepts Practiced
+## 🧠 Concepts Practiced
 
-- Classes and objects
+- Classes and objects (OOP)
 
-- Composition and inheriting
+- Composition and Inheritance
 
 - Lists for storing multiple objects and tracking their state
 
@@ -47,11 +52,12 @@ The objective is simple: help the turtle cross the road while avoiding incoming 
 
 - Random object generation
 
-- State management
-
 - Single Responsibility Principle
 
 - Code organization and reusable methods
+
+- Increasing difficulty after each level
+
 
 
 
